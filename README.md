@@ -47,3 +47,15 @@ Review my draft on a proposed solution for me. I am looking to get approval for 
 **The requirement** is that:
 
 **My proposed solution** is that:
+
+## Documentation
+
+Always use British spellings. Do not use the em dash (—). Do not use "thereby".
+
+I'm writing a documentation. I'm going to feed you the context, and then start composing it.
+
+**Objective**:
+
+**Target audience**:
+
+**Other context**:
