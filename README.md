@@ -36,7 +36,7 @@ I'm replying to an email. I want to start it by Hi and then the recipient name(s
 
 Always use British spellings. Do not use the em dash (—). Do not use "thereby".
 
-Draft a JIRA ticket including the acceptance criteria for me. The ticket description needs to be in the Why What How style. Use a numbered list in the How section. The ticket is for the <developers|QA engineers|other roles> to:
+Draft a JIRA ticket including the acceptance criteria for me. The ticket description needs to be in the Why What How style. Use a numbered list in the How section. The ticket is for the **<developers|QA engineers|other roles>** to:
 
 ## Proposed Solution 
 
@@ -44,6 +44,6 @@ Always use British spellings. Do not use the em dash (—). Do not use "thereby"
 
 Review my draft on a proposed solution for me. I am looking to get approval for this solution from the business team. Mind that there could be typo in the provided requirement. My proposed solution should contain more accurate information. Generate any revised text.
 
-The requirement is that:
+**The requirement** is that:
 
-My proposed solution is that:
+**My proposed solution** is that:
