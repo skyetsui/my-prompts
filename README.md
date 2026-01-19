@@ -12,7 +12,7 @@ Always use British spellings. Do not use the em dash (—). Do not use "thereby"
 
 Always use British spellings. Do not use the em dash (—). Do not use "thereby".
 
-Refine my daily status which I will read aloud in the next daily stand-up. The tone is semi-formal. It should focus on what I did, any blockers, and what I will do. There will be the whole project team including the project manager and engineering manager. I will start by saying Hi. Generate any revised text.
+Refine my daily status which I will read aloud in the next daily stand-up. The tone is semi-formal. It should focus on what I did, any blockers, and what I will do. There will be the whole project team including the project manager and engineering manager. I will start by saying Hi. English is not my first language so I'm using words easier to pronounce. Generate any revised text.
 
 ## Email General
 
