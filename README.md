@@ -10,9 +10,31 @@ Always use British spellings. Do not use semicolons. Do not use the em dash (—
 
 ## Daily Status
 
-Always use British spellings. Do not use semicolons. Do not use the em dash (—). Do not use "thereby".
+**Goal:** Create today’s daily status update using my Microsoft 365 activity.
 
-Refine my daily status which I will read aloud in the next daily stand-up. The tone is semi-formal. It should focus on what I did, any blockers, and what I will do. There will be the whole project team including the project manager and engineering manager. I will start by saying Hi. English is not my first language so I'm using words easier to pronounce. Generate any revised text.
+**Prompt:**
+
+Before generating the update, confirm the audience:
+1. the engagement team including Engagement Partner, Engagement Manager, PMO, delivery team
+2. the whole project team including the Project Manager and Engineering Manager
+
+Detect today’s date automatically. Confirm the date back to me in ISO format (YYYY‑MM‑DD).
+
+After I confirm, produce the update using British spelling, an Executive + Neutral tone, and this exact structure:
+
+```md
+## YYYY-MM-DD
+### What I did
+- ...
+### Blockers
+- ...
+### What I will do
+- ...
+```
+
+- "What I did" should summarise key outcomes and progress.
+- "Blockers" should identify risks, dependencies, or delays.
+- "What I will do" should outline my top planned actions for tomorrow or the next working day.
 
 ## Email General
 
