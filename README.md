@@ -23,12 +23,12 @@ Detect today’s date automatically. Confirm the date back to me in ISO format (
 After I confirm, produce the update using British spelling, an Executive + Neutral tone, and this exact structure:
 
 ```md
-## YYYY-MM-DD
-### What I did
+# YYYY-MM-DD
+## What I did
 - ...
-### Blockers
+## Blockers
 - ...
-### What I will do
+## What I will do
 - ...
 ```
 
