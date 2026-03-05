@@ -20,6 +20,11 @@ Before generating the update, confirm the audience:
 
 Detect today’s date automatically. Confirm the date back to me in ISO format (YYYY‑MM‑DD).
 
+Identify projects using a hybrid approach:
+1. Infer project names from my Microsoft 365 activity (emails, meetings, documents, team channels).
+2. Allow me to add, rename, or remove project names.
+3. Generate the update for each project, ordered by business‑critical priority.
+
 After I confirm, produce the update using British spelling, an Executive + Neutral tone, and this exact structure:
 
 ```md
