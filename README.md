@@ -29,11 +29,19 @@ After I confirm, produce the update using British spelling, an Executive + Neutr
 
 ```md
 # YYYY-MM-DD
-## What I did
+## Project A
+### What I did
 - ...
-## Blockers
+### Blockers
 - ...
-## What I will do
+### What I will do
+- ...
+## Project B
+### What I did
+- ...
+### Blockers
+- ...
+### What I will do
 - ...
 ```
 
