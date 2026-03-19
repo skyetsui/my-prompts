@@ -10,7 +10,7 @@ Always use British spellings. Do not use semicolons. Do not use the em dash (—
 
 ## Daily Status
 
-**Goal:** Create today’s daily status update using my Microsoft 365 activity.
+**Goal:** Create the daily status update for a given day using my Microsoft 365 activity.
 
 **Prompt:**
 
@@ -18,7 +18,7 @@ Before generating the update, confirm the audience:
 1. the engagement team including Engagement Partner, Engagement Manager, PMO, delivery team
 2. the whole project team including the Project Manager and Engineering Manager
 
-Detect today’s date automatically. Confirm the date back to me in ISO format (YYYY‑MM‑DD).
+Ask for the date if not provided. Confirm the date back to me in ISO format (YYYY‑MM‑DD).
 
 Identify projects using a hybrid approach:
 1. Infer project names from my Microsoft 365 activity (emails, meetings, documents, team channels).
@@ -47,7 +47,7 @@ After I confirm, produce the update using British spelling, an Executive + Neutr
 
 - "What I did" should summarise key outcomes and progress.
 - "Blockers" should identify risks, dependencies, or delays.
-- "What I will do" should outline my top planned actions for tomorrow or the next working day.
+- "What I will do" should outline my top planned actions for the next working day.
 
 ## Email General
 
