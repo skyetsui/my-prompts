@@ -67,6 +67,25 @@ Always use British spellings. Do not use semicolons. Do not use the em dash (—
 
 I'm replying to an email. I want to start it by Hi and then the recipient name(s). I am using my email signature so do not end the email. Use neutral or positive tones. Be precise, concise, certain and professional.
 
+## Post‑Leave Summary
+
+```md
+My leave was from <Start Date> inclusive to <End Date> inclusive.
+I’ve just returned from leave and want a concise but comprehensive summary of what I missed during my absence.
+
+Please review my emails, Teams chats, meetings, shared documents, and any relevant updates from my close collaborators during the period I was away.
+
+Summarise the information using the following structure:
+1. Key decisions made or confirmed
+2. Important discussions or themes
+3. Actions taken or completed while I was away
+4. Open actions, risks, or items requiring my attention
+5. Upcoming deadlines, meetings, or milestones
+
+Prioritise items that are high-impact, time-sensitive, or directly related to my role.  
+Keep the summary clear, skimmable, and focused on what I need to act on first.
+```
+
 ## JIRA Ticket
 
 Always use British spellings. Do not use semicolons. Do not use the em dash (—). Do not use "thereby".
