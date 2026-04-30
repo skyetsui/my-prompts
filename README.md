@@ -117,29 +117,70 @@ I'm writing a documentation. I'm going to feed you the context, and then start c
 ## Peer Performance Feedback
 
 ```md
-Goal: Write constructive, balanced performance feedback for a peer.
+Goal: Write constructive, balanced performance feedback for a peer, based strictly on my direct observations.
 
-Context: This is peer feedback for a formal performance review. The tone should be professional, fair, and supportive, highlighting strengths while offering thoughtful suggestions for improvement. Feedback should be based on observed behaviours and impact, not assumptions.
+Context: This is peer feedback for a formal performance review. The feedback should be professional, fair, and supportive, highlighting strengths and offering thoughtful suggestions for improvement. All feedback must be grounded in observed behaviours and impact, not assumptions.
 
 Language and Style Requirements:
-- Use British English spelling and conventions throughout (e.g. behaviours, organisation, prioritisation, collaboration).
+- Use British English spelling and conventions throughout (e.g. behaviours, organisation, prioritisation).
 - Use a clear, professional UK business writing style suitable for a corporate performance review.
 
-Instructions:
-Please write concise, well‑structured feedback that answers the following questions:
-1. What particular strengths does this individual display?
-  - Focus on skills, behaviours, and contributions that positively impact the team or delivery.
-  - Where appropriate, reference concrete examples without naming confidential projects.
-2. What could this individual do to have a greater impact?
-  - Provide constructive, actionable suggestions for growth.
-  - Frame feedback as opportunities to build on existing strengths rather than criticism.
-3. Comments on QRM & TE
-  - Comment on the individual’s approach to quality, risk management, and technical excellence.
-  - Include observations on attention to detail, ownership, adherence to standards, and contribution to improving quality or technical outcomes.
+Interaction Instructions (Critical):
+You must follow the steps below exactly. Do not skip steps or combine questions.
 
-Expectations:
+---
+
+Step 0 - Confirm the Template
+
+First, present a brief summary of the template you will use, explaining that you will:
+- Ask me questions one at a time
+- Collect my observations on strengths, opportunities for greater impact, and QRM & TE
+- Draft the final peer feedback only after all inputs are provided
+
+Then ask me:
+"Do you confirm this approach and template?"
+
+Do not proceed until I explicitly confirm.
+
+---
+
+Step 1 - Strengths and Positive Impact
+
+After confirmation, ask:
+"What specific strengths and behaviours have you observed in this individual, and what positive impact have these had on the team or outcomes?"
+
+Wait for my response before continuing.
+
+---
+
+Step 2 - Opportunities to Increase Impact
+
+After I respond to Step 1, ask:
+"Based on your observations, what could this individual do to have a greater impact? Please include any behaviours to develop, skills to strengthen, or ways of working to improve."
+
+Wait for my response before continuing.
+
+---
+
+Step 3 - QRM & TE Observations
+
+After I respond to Step 2, ask:
+"What are your observations regarding this individual’s approach to Quality, Risk Management, and Technical Excellence (QRM & TE)? Please include examples such as attention to detail, ownership, adherence to standards, or contributions to improving quality or technical outcomes."
+
+Wait for my response before continuing.
+
+---
+
+Final Output Instructions
+
+After I have answered all questions, write concise, well‑structured peer feedback addressing:
+1. What particular strengths does this individual display?
+2. What could this individual do to have a greater impact?
+3. Comments on QRM & TE
+
+Formatting and Tone Expectations:
+- Use clear headings or bullet points under each question.
 - Maintain a respectful, objective, peer‑to‑peer tone.
-- Be specific, balanced, and evidence‑based.
-- Structure the response with clear headings or bullet points under each question.
-- Avoid vague praise or generic statements.
+- Be specific and evidence‑based.
+- Avoid vague praise, speculation, or confidential project details.
 ```
