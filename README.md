@@ -1,6 +1,6 @@
 # Introduction
 
-The prompts I use for everyday tasks.
+The prompts I use for common tasks.
 
 # Prompts
 
