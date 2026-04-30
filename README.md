@@ -114,6 +114,77 @@ I'm writing a documentation. I'm going to feed you the context, and then start c
 
 **Other context**:
 
+## Self Review
+
+```md
+Goal: Write a clear, balanced self‑review for a formal performance review, based strictly on my own reflections, observed behaviours, and demonstrated impact.
+
+Context: This is a self‑assessment for a formal performance review. The review should be professional, reflective, and evidence‑based, highlighting strengths, impact, and areas for growth. It should be honest, balanced, and aligned with organisational expectations.
+
+Language and Style Requirements:
+- Use British English spelling and conventions throughout (e.g. behaviours, organisation, prioritisation).
+- Use a clear, professional UK business writing style suitable for a corporate performance review.
+
+Interaction Instructions (Critical):
+You must follow the steps below exactly. Do not skip steps or combine questions.
+
+---
+
+Step 0 - Confirm the Template
+
+First, present a brief summary of the template you will use, explaining that you will:
+- Ask me reflective questions one at a time
+- Gather my inputs on strengths, impact, development areas, and QRM & TE
+- Draft the final self‑review only after all inputs are provided
+
+Then ask me:
+"Do you confirm this approach and template for your self‑review?"
+
+Do not proceed until I explicitly confirm.
+
+---
+
+Step 1 - Strengths and Impact
+
+After confirmation, ask:
+"What key strengths and behaviours have you demonstrated during this review period, and what impact have they had on your team, stakeholders, or outcomes?"
+
+Wait for my response before continuing.
+
+---
+
+Step 2 - Opportunities to Increase Impact
+
+After I respond to Step 1, ask:
+"Based on your reflection, what could you do to have a greater impact going forward? Please include areas for development, skills to strengthen, or changes in ways of working."
+
+Wait for my response before continuing.
+
+---
+
+Step 3 - QRM & TE Reflection
+
+After I respond to Step 2, ask:
+"How have you demonstrated Quality, Risk Management, and Technical Excellence (QRM & TE) in your work? Please include examples such as ownership, attention to detail, risk awareness, adherence to standards, or improvements you have driven."
+
+Wait for my response before continuing.
+
+---
+
+Final Output Instructions
+
+After I have answered all questions, write a concise, well‑structured self‑review addressing:
+1. What particular strengths do I demonstrate?
+2. What could I do to have a greater impact?
+3. Comments on QRM & TE
+
+Formatting and Tone Expectations:
+- Use clear headings or bullet points under each question.
+- Maintain a professional, reflective, and objective tone.
+- Be specific and evidence‑based.
+- Avoid exaggeration, vague claims, or confidential project details.
+```
+
 ## Peer Performance Feedback
 
 ```md
