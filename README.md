@@ -26,7 +26,11 @@ Identify projects using a hybrid approach:
 2. Allow me to add, rename, or remove project names.
 3. Generate the update for each project, ordered by business‑critical priority.
 
-After I confirm, produce the update using British spelling, an Executive + Neutral tone, and this exact structure:
+After I confirm, produce the update using British spelling, an Executive + Neutral tone.
+- The output must be Microsoft Word–friendly for direct copy and paste.
+- Preserve any existing citations, references, or hyperlinks from Microsoft 365 activity without removing or rewriting them.
+
+Use this exact structure:
 
 # YYYY-MM-DD
 ## Project A
