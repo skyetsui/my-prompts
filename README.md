@@ -32,20 +32,28 @@ After I confirm, produce the update using British spelling, an Executive + Neutr
 
 Use this exact structure:
 
-# YYYY-MM-DD
-## Project A
-### What I did
+YYYY-MM-DD
+
+Project A
+
+What I did
 - ...
-### Blockers
+
+Blockers
 - ...
-### What I will do
+
+What I will do
 - ...
-## Project B
-### What I did
+
+Project B
+
+What I did
 - ...
-### Blockers
+
+Blockers
 - ...
-### What I will do
+
+What I will do
 - ...
 
 - "What I did" should summarise key outcomes and progress.
