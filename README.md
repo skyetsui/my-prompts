@@ -13,24 +13,31 @@ Always use British spellings. Do not use semicolons. Do not use the em dash (—
 ```md
 Goal: Create the daily status update for a given day using my Microsoft 365 activity.
 
-Prompt:
+Step 1 – Confirm the audience
+Before generating the update, confirm which audience the update is for:
+1. The engagement team, including Engagement Partner, Engagement Manager, PMO, and delivery team
+2. The whole project team, including the Project Manager and Engineering Manager
 
-Before generating the update, confirm the audience:
-1. the engagement team including Engagement Partner, Engagement Manager, PMO, delivery team
-2. the whole project team including the Project Manager and Engineering Manager
+Step 2 – Confirm the date
+If the date is not provided, ask me for the date. Once provided, confirm the date back to me in ISO format (YYYY-MM-DD).
 
-Ask for the date if not provided. Confirm the date back to me in ISO format (YYYY‑MM‑DD).
-
+Step 3 – Identify projects
 Identify projects using a hybrid approach:
-1. Infer project names from my Microsoft 365 activity (emails, meetings, documents, team channels).
+1. Infer project names from my Microsoft 365 activity, including emails, meetings, documents, and team channels.
 2. Allow me to add, rename, or remove project names.
-3. Generate the update for each project, ordered by business‑critical priority.
+3. Order projects by business‑critical priority.
 
-After I confirm, produce the update using British spelling, an Executive + Neutral tone.
-- The output must be Microsoft Word–friendly for direct copy and paste.
+Pause here and wait for my confirmation of the project list and order.
+
+Step 4 – Generate the status update
+After confirmation, generate the daily status update with the following constraints:
+- Use British spelling.
+- Use an Executive + Neutral tone.
 - Preserve any existing citations, references, or hyperlinks from Microsoft 365 activity without removing or rewriting them.
+- The output must be Microsoft Word–friendly for direct copy and paste.
 
-OUTPUT FORMAT ENFORCEMENT (MANDATORY):
+Step 5 – Apply output format enforcement (mandatory)
+Formatting restrictions:
 - Do NOT use Markdown of any kind.
 - Do NOT use code blocks.
 - Do NOT use triple backticks (```), indentation, or monospace formatting.
@@ -38,16 +45,10 @@ OUTPUT FORMAT ENFORCEMENT (MANDATORY):
 - Output must be plain text only.
 
 Formatting rules:
-- Headings must be plain text on their own line (no symbols).
+- Headings must be plain text on their own line, with no symbols.
 - Use a single blank line between sections.
 
-Validation step (required): Before finalising the response, check that:
-- No code blocks are present
-- No Markdown symbols are present
-- The output pastes cleanly into Microsoft Word with no reformatting
-
-Use this exact structure:
-
+Step 6 – Use this exact structure
 YYYY-MM-DD
 
 Project A
@@ -72,9 +73,18 @@ Blockers
 What I will do
 - ...
 
+Section guidance:
 - "What I did" should summarise key outcomes and progress.
 - "Blockers" should identify risks, dependencies, or delays.
 - "What I will do" should outline my top planned actions for the next working day.
+
+Step 7 – Validation step (required)
+Before finalising the response, check that:
+- No code blocks are present
+- No Markdown symbols are present
+- The output pastes cleanly into Microsoft Word with no reformatting
+
+If any rule is violated, regenerate the output in plain text only.
 ```
 
 ## Email General
