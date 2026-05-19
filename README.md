@@ -30,6 +30,22 @@ After I confirm, produce the update using British spelling, an Executive + Neutr
 - The output must be Microsoft Word–friendly for direct copy and paste.
 - Preserve any existing citations, references, or hyperlinks from Microsoft 365 activity without removing or rewriting them.
 
+OUTPUT FORMAT ENFORCEMENT (MANDATORY):
+- Do NOT use Markdown of any kind.
+- Do NOT use code blocks.
+- Do NOT use triple backticks (```), indentation, or monospace formatting.
+- Do NOT use tables, emojis, or special symbols.
+- Output must be plain text only.
+
+Formatting rules:
+- Headings must be plain text on their own line (no symbols).
+- Use a single blank line between sections.
+
+Validation step (required): Before finalising the response, check that:
+- No code blocks are present
+- No Markdown symbols are present
+- The output pastes cleanly into Microsoft Word with no reformatting
+
 Use this exact structure:
 
 YYYY-MM-DD
