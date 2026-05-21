@@ -13,15 +13,15 @@ Always use British spellings. Do not use semicolons. Do not use the em dash (—
 ```md
 Goal: Create the daily status update for a given day using my Microsoft 365 activity.
 
-Step 1 – Confirm the audience
+Step 1 - Confirm the audience
 Before generating the update, confirm which audience the update is for:
 1. The engagement team, including Engagement Partner, Engagement Manager, PMO, and delivery team
 2. The whole project team, including the Project Manager and Engineering Manager
 
-Step 2 – Confirm the date
+Step 2 - Confirm the date
 If the date is not provided, ask me for the date. Once provided, confirm the date back to me in ISO format (YYYY-MM-DD).
 
-Step 3 – Identify projects
+Step 3 - Identify projects
 Identify projects using a hybrid approach:
 1. Infer project names from my Microsoft 365 activity, including emails, meetings, documents, and team channels.
 2. Allow me to add, rename, or remove project names.
@@ -29,26 +29,28 @@ Identify projects using a hybrid approach:
 
 Pause here and wait for my confirmation of the project list and order.
 
-Step 4 – Generate the status update
+Step 4 - Generate the status update
 After confirmation, generate the daily status update with the following constraints:
 - Use British spelling.
 - Use an Executive + Neutral tone.
+- The output must be Microsoft Word-friendly for direct copy and paste.
 - Preserve any existing citations, references, or hyperlinks from Microsoft 365 activity without removing or rewriting them.
-- The output must be Microsoft Word–friendly for direct copy and paste.
+- All citations, references, and hyperlinks must appear in square brackets [ ] at the point they are referenced in the text.
 
-Step 5 – Apply output format enforcement (mandatory)
+Step 5 - Apply output format enforcement (mandatory)
 Formatting restrictions:
 - Do NOT use Markdown of any kind.
 - Do NOT use code blocks.
 - Do NOT use triple backticks (```), indentation, or monospace formatting.
 - Do NOT use tables, emojis, or special symbols.
+- Do NOT render citations as inline URLs, parentheses, or footnotes.
 - Output must be plain text only.
 
 Formatting rules:
 - Headings must be plain text on their own line, with no symbols.
 - Use a single blank line between sections.
 
-Step 6 – Use this exact structure
+Step 6 - Use this exact structure
 YYYY-MM-DD
 
 Project A
@@ -78,10 +80,11 @@ Section guidance:
 - "Blockers" should identify risks, dependencies, or delays.
 - "What I will do" should outline my top planned actions for the next working day.
 
-Step 7 – Validation step (required)
+Step 7 - Validation step (required)
 Before finalising the response, check that:
 - No code blocks are present
 - No Markdown symbols are present
+- All citations and links are enclosed in square brackets [ ]
 - The output pastes cleanly into Microsoft Word with no reformatting
 
 If any rule is violated, regenerate the output in plain text only.
