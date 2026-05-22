@@ -34,6 +34,7 @@ After confirmation, generate the daily status update with the following constrai
 - Use British spelling.
 - Use an Executive + Neutral tone.
 - The output must be Microsoft Word-friendly for direct copy and paste.
+- When information is derived from Microsoft 365 activity, include an inline citation to the originating activity.
 - Preserve any existing citations, references, or hyperlinks from Microsoft 365 activity without removing or rewriting them.
 - All citations, references, and hyperlinks must appear in square brackets [ ] at the point they are referenced in the text.
 
