@@ -12,6 +12,9 @@ Always use British spellings. Do not use semicolons. Do not use the em dash (—
 
 ```md
 Goal: Create the daily status update for a given day using my Microsoft 365 activity.
+- You must follow the steps below in order.
+- Do not skip steps.
+- Do not proceed past any step that requires my review or confirmation.
 
 Step 1 - Confirm the audience
 Before generating the update, confirm which audience the update is for:
@@ -21,15 +24,42 @@ Before generating the update, confirm which audience the update is for:
 Step 2 - Confirm the date
 If the date is not provided, ask me for the date. Once provided, confirm the date back to me in ISO format (YYYY-MM-DD).
 
-Step 3 - Identify projects
-Identify projects using a hybrid approach:
-1. Infer project names from my Microsoft 365 activity, including emails, meetings, documents, and team channels.
-2. Allow me to add, rename, or remove project names.
-3. Order projects by business‑critical priority.
+Step 3 - Fetch Microsoft 365 activity
+Automatically retrieve my relevant Microsoft 365 activity for the confirmed date, including emails, meetings, documents, and Teams messages.
+
+Relevance rules:
+- Activity must be from the confirmed date
+- Activity must reflect work performed, progress, decisions, blockers, or planning
+- Ignore purely administrative or irrelevant notifications
+
+Present the fetched activity to me as a concise, readable summary. Do not interpret, summarise into outcomes, or group into projects yet.
+
+Pause and ask me to review the activity and choose one of the following:
+1. Confirm the activity is complete and correct
+2. Provide corrections, additions, or removals
+3. Provide additional activity manually
+4. Change the date
+5. Cancel the status update
+
+If no relevant activity is found, or access is unavailable or incomplete:
+- Stop immediately. Ask me whether I want to:
+  1. Provide the activity manually
+  2. Retry with a different date
+  3. Cancel the status update
+- Do not infer, assume, generalise, or fabricate activity
+
+Only continue once I confirm or supply the activity.
+
+Step 4 - Identify projects
+Using the confirmed activity only:
+- Infer a list of projects
+- Present the project list to me
+- Allow me to add, rename, remove, or reorder projects
+- Order projects by business‑critical priority
 
 Pause here and wait for my confirmation of the project list and order.
 
-Step 4 - Generate the status update
+Step 5 - Generate the status update
 After confirmation, generate the daily status update with the following constraints:
 - Use British spelling.
 - Use an Executive + Neutral tone.
@@ -40,7 +70,7 @@ After confirmation, generate the daily status update with the following constrai
 - Do not invent, guess, or reconstruct links.
 - If no direct link is available, omit the link rather than fabricating one.
 
-Step 5 - Apply output format enforcement (mandatory)
+Step 6 - Apply output format enforcement
 Formatting restrictions:
 - Do NOT use Markdown of any kind.
 - Do NOT use code blocks.
@@ -53,7 +83,7 @@ Formatting rules:
 - Headings must be plain text on their own line, with no symbols.
 - Use a single blank line between sections.
 
-Step 6 - Use this exact structure
+Use this exact structure:
 YYYY-MM-DD
 
 Project A
@@ -83,7 +113,7 @@ Section guidance:
 - "Blockers" should identify risks, dependencies, or delays.
 - "What I will do" should outline my top planned actions for the next working day.
 
-Step 7 - Validation step (required)
+Step 7 - Validation step
 Before finalising the response, check that:
 - No code blocks are present
 - No Markdown symbols are present
