@@ -11,116 +11,75 @@ Always use British spellings. Do not use semicolons. Do not use the em dash (—
 ## Daily Status
 
 ```md
-Goal: Create the daily status update for a given day using my Microsoft 365 activity.
-- You must follow the steps below in order.
-- Do not skip steps.
-- Do not proceed past any step that requires my review or confirmation.
+Goal
+Create a daily status update for a specific date based on my Microsoft 365 activity, using a controlled, review‑driven flow.
 
-Step 1 - Confirm the audience
-Before generating the update, confirm which audience the update is for:
-1. The engagement team, including Engagement Partner, Engagement Manager, PMO, and delivery team
-2. The whole project team, including the Project Manager and Engineering Manager
+Operating rules
+- Work step by step
+- Stop completely at any step that explicitly says “STOP”
+- Do not assume or invent information
+- If required information is missing, ask for it and STOP
 
-Step 2 - Confirm the date
-If the date is not provided, ask me for the date. Once provided, confirm the date back to me in ISO format (YYYY-MM-DD).
+Step 1 - Audience selection
+Ask me which audience this update is for and present these options only:
+1. Engagement team (Engagement Partner, Engagement Manager, PMO, delivery team)
+2. Whole project team (Project Manager, Engineering Manager)
 
-Step 3 - Fetch Microsoft 365 activity
-Automatically retrieve my relevant Microsoft 365 activity for the confirmed date, including emails, meetings, documents, and Teams messages.
+STOP after asking.
 
-Relevance rules:
-- Activity must be from the confirmed date
-- Activity must reflect work performed, progress, decisions, blockers, or planning
-- Ignore purely administrative or irrelevant notifications
+Step 2 - Date confirmation
+Ask me for the date. Repeat the date back in ISO format (YYYY‑MM‑DD).
 
-Present the fetched activity to me as a concise, readable summary. Do not interpret, summarise into outcomes, or group into projects yet.
+STOP to confirm the date.
 
-Pause and ask me to review the activity and choose one of the following:
-1. Confirm the activity is complete and correct
-2. Provide corrections, additions, or removals
-3. Provide additional activity manually
-4. Change the date
-5. Cancel the status update
+Step 3 - Microsoft 365 activity review
+Explain what Microsoft 365 activity you can currently see for the confirmed date.
 
-If no relevant activity is found, or access is unavailable or incomplete:
-- Stop immediately. Ask me whether I want to:
-  1. Provide the activity manually
-  2. Retry with a different date
-  3. Cancel the status update
-- Do not infer, assume, generalise, or fabricate activity
+If no activity is visible or access is incomplete, clearly state that and ask me to provide the activity manually.
 
-Only continue once I confirm or supply the activity.
+If activity is visible, present it as a concise list:
+- One line per item
+- No interpretation, grouping, or outcomes
+- Only work‑related activity
 
-Step 4 - Identify projects
-Using the confirmed activity only:
-- Infer a list of projects
-- Present the project list to me
-- Allow me to add, rename, remove, or reorder projects
-- Order projects by business‑critical priority
+STOP and ask me to confirm, correct, add, or remove items.
 
-Pause here and wait for my confirmation of the project list and order.
+Step 4 - Project identification
+Using only the confirmed activity:
+- Propose a list of projects
+- Order them by business‑critical priority
+
+Ask me to confirm, rename, reorder, add, or remove projects.
+
+STOP after presenting the project list.
 
 Step 5 - Generate the status update
-After confirmation, generate the daily status update with the following constraints:
-- Use British spelling.
-- Use an Executive + Neutral tone.
-- The output must be Microsoft Word-friendly for direct copy and paste.
-- When information is derived from Microsoft 365 activity, include an activity reference with the direct, clickable Microsoft 365 link.
-- Insert links inline at the end of the relevant bullet or sentence.
-- Only use real links that exist in the Microsoft 365 activity context.
-- Do not invent, guess, or reconstruct links.
-- If no direct link is available, omit the link rather than fabricating one.
+After project confirmation, generate the daily status update using this exact structure:
 
-Step 6 - Apply output format enforcement
-Formatting restrictions:
-- Do NOT use Markdown of any kind.
-- Do NOT use code blocks.
-- Do NOT use triple backticks (```), indentation, or monospace formatting.
-- Do NOT use tables, emojis, or special symbols.
-- Do NOT render citations as inline URLs, parentheses, or footnotes.
-- Output must be plain text only.
+YYYY‑MM‑DD
 
-Formatting rules:
-- Headings must be plain text on their own line, with no symbols.
-- Use a single blank line between sections.
-
-Use this exact structure:
-YYYY-MM-DD
-
-Project A
+Project
 
 What I did
-- ...
+- (key outcomes and progress)
 
 Blockers
-- ...
+- (risks, dependencies, or delays)
 
 What I will do
-- ...
+- (planned actions)
 
-Project B
+Constraints:
+- British spelling
+- Executive, neutral tone
+- Plain text only
+- Microsoft Word‑friendly
+- If a real Microsoft 365 link is available from the activity context, place it at the end of the relevant bullet
+- If no link is available, omit the link
 
-What I did
-- ...
+Do not add commentary, explanations, or extra sections.
 
-Blockers
-- ...
-
-What I will do
-- ...
-
-Section guidance:
-- "What I did" should summarise key outcomes and progress.
-- "Blockers" should identify risks, dependencies, or delays.
-- "What I will do" should outline my top planned actions for the next working day.
-
-Step 7 - Validation step
-Before finalising the response, check that:
-- No code blocks are present
-- No Markdown symbols are present
-- All citations and links are enclosed in square brackets [ ]
-- The output pastes cleanly into Microsoft Word with no reformatting
-
-If any rule is violated, regenerate the output in plain text only.
+End of prompt.
 ```
 
 ## Email General
