@@ -72,7 +72,6 @@ What I will do
 Constraints:
 - British spelling
 - Executive, neutral tone
-- Plain text only
 - Microsoft Word‑friendly
 - If a real Microsoft 365 link is available from the activity context, place it at the end of the relevant bullet
 - If no link is available, omit the link
