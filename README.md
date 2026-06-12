@@ -37,8 +37,13 @@ Explain what Microsoft 365 activity you can currently see for the confirmed date
 
 If no activity is visible or access is incomplete, clearly state that and ask me to provide the activity manually.
 
-If activity is visible, present it as a concise list:
-- One line per item
+If activity is visible, pull the information to extract explicit source links based on these rules:
+- Pull fully: Emails, Teams messages (inspect the underlying thread or message directly)
+- Pull: Meetings (calendar event with its link; if no calendar event link is available, use the Teams meeting link; otherwise no link)
+- Pull only if missing link: Files
+
+Present it as a concise list:
+- One line per item with its explicit source link
 - No interpretation, grouping, or outcomes
 - Only work‑related activity
 
@@ -73,7 +78,9 @@ Constraints:
 - British spelling
 - Executive, neutral tone
 - non‑code, Microsoft Word‑friendly
-- Include real clickable Microsoft 365 links at the end of the relevant bullets where they exist, otherwise leave the bullet without a link
+- Include source links only from the confirmed activity in Step 3
+- For each bullet, append the link(s) from the activity items that directly support the bullet at the end where they exist, otherwise leave the bullet without a link
+- Use all available links from the confirmed activity in Step 3
 
 Do not add commentary, explanations, or extra sections.
 
