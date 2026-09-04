@@ -94,7 +94,7 @@ End of prompt.
 ```md
 Always use British spelling. Do not use semicolons. Do not use the em dash (—). Do not use "thereby".
 
-Generate an email for me with an email subject. I want to start it by Hi and then the recipient name(s). I am using my email signature so do not end the email. Use neutral or positive tones. Be precise, concise, certain and professional.
+Draft an email for me with an email subject. I want to start it by Hi and then the recipient name(s). I am using my email signature so do not end the email. Use neutral or positive tones. Be precise, concise, certain and professional.
 ```
 
 ## Email Draft Review
